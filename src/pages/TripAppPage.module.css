@@ -1,0 +1,39 @@
+.main_container {
+	display: flex;
+	gap: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+ }
+ 
+ .header {
+	display: flex;
+	justify-content: space-between;
+ }
+ 
+ .title_block {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+ }
+ 
+ .title {
+	font-size: 18px;
+	font-weight: 400;
+ }
+ 
+ .title_bold {
+	font-weight: 600;
+ }
+ 
+ .github_link {
+	display: flex;
+	align-self: center;
+	justify-content: center;
+ }
+ 
+ .left_block {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	width: 600px;
+ }

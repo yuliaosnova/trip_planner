@@ -1,0 +1,61 @@
+.slide_buttons {
+	display: flex;
+	justify-content: flex-end;
+	gap: 10px;
+	margin-bottom: 10px;
+ }
+ 
+ .slide_btn {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: 1px solid var(--accent-cl);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: transparent;
+	transition: var(--animation);
+ 
+	&:hover {
+	  background-color: var(--white-cl);
+	}
+ 
+	&:disabled {
+	  border-color: var(--secondary-txt-cl);
+	  &:hover {
+		 background-color: transparent;
+	  }
+	  .icon {
+		 stroke: var(--secondary-txt-cl);
+	  }
+	}
+ }
+ 
+ .icon {
+	width: 36px;
+	height: 36px;
+	stroke: var(--accent-cl);
+	fill: none;
+ }
+ 
+ .icon_right {
+	transform: rotate(180deg);
+ }
+ 
+ .slider {
+	display: flex;
+	gap: 25px;
+ }
+ 
+ .add_btn {
+	font-size: 12px;
+	width: 120px;
+	height: 120px;
+	border: none;
+	background-color: var(--modal-bg);
+	transition: var(--animation);
+ 
+	&:hover {
+	  transform: scale(1.1);
+	}
+ }

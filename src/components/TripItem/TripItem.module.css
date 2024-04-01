@@ -1,0 +1,29 @@
+.trip_item {
+	width: 120px;
+	transition: var(--animation);
+	&:hover {
+	  transform: scale(1.1);
+	}
+ }
+ 
+ .description {
+	font-size: 10px;
+	padding: 5px;
+	margin-top: -10px;
+	border-left: 1px solid var(--trip-border-cl);
+	border-right: 1px solid var(--trip-border-cl);
+	border-bottom: 1px solid var(--trip-border-cl);
+ }
+ 
+ .description_selected {
+	font-size: 10px;
+	padding: 5px;
+	margin-top: -10px;
+	border-left: 2px solid var(--accent-cl);
+	border-right: 2px solid var(--accent-cl);
+	border-bottom: 2px solid var(--accent-cl);
+ }
+ 
+ .dates {
+	color: var(--secondary-txt-cl);
+ }
